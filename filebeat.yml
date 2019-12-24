@@ -1,7 +1,7 @@
 filebeat.inputs:
   - type: log
     paths:
-      - /var/logs/*.log
+      - /home/logs
     multiline:
       pattern: ^\d{4}
       negate: true
