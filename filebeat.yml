@@ -13,4 +13,4 @@ filebeat.inputs:
       env: dev  # 应用部署环境，方便多环境共用elk时区分（根据实际情况也可以考虑去掉这个字段）
 
 output.logstash:
-  hosts: ["logstash:5400"] # logstash地址
+  hosts: ["39.100.158.150:5044"] # logstash地址
